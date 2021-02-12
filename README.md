@@ -16,17 +16,17 @@ processes in batches. a lot of script struggled with 100GB CSV Files
 ## The Solution
 Tobias script did a great job to split. but the problem was that the last line would often be cut prematurely eg below
 
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx                <------ File1
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xx
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<tb>          <b><------ File1</b><br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xx<br>
 
-xx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx                <------File2
-xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx
+xx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<tb>          <b><------File2</b><br>
+xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx	,	xxxx<br>
 
 i created a second step to add last line of proceding file to the first line of the subsequent file
 
